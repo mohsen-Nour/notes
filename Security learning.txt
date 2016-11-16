@@ -37,6 +37,6 @@ Authentications type
 	Credential-based authentication
 	Two-factor authentication
 	Hardware authentication
-now
+
 
 
