@@ -1,0 +1,42 @@
+Spring security note packet publishing
+
+Monday, October 31, 2016
+2:06 PM
+
+APPLICATION AUDIT RESULTS
+This application exhibits the following insecure behavior:
+
+• Inadvertent privilege escalation due to lack of URL protection and general authentication
+• Inappropriate or non-existent use of authorization
+• Missing database credential security
+• Personally-identifiable or sensitive information is easily accessible or unencrypted
+• Insecure transport-level protection due to lack of SSL encryption
+• Risk level is high
+
+Security Standards in Industry
+Two specific security standards that you're likely to run into at some point in your career are the Payment Card Industry Data Security Standard (PCI DSS) and the Health Insurance Privacy and
+Accountability Act (HIPAA) privacy rules. Both the standards are
+intended to ensure safety of specific sensitive information (credit card
+and medical information, respectively) through a combination of
+process and software controls. Many other industries and countries have
+similar rules around sensitive or Personally Identifiable Information(PII).
+ 
+Failure to follow these standards is not only a bad practice, but
+something that could expose you or your company to significant liability
+(not to mention bad press) in the event of a security breach
+
+Authentication
+Inadvertent privilege escalation due to lack of URL protection and general
+authentication.
+
+Authentication is one of the two key security concepts that you must internalize
+when developing secure applications (the other being authorization). 
+Authentication identifies who is attempting to request a resource.
+
+Authentications type
+	Credential-based authentication
+	Two-factor authentication
+	Hardware authentication
+now
+
+
