@@ -1,0 +1,11 @@
+playlist download
+
+--proxy socks5://127.0.0.1:9150              
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>
+--playlist-start NUMBER          Playlist video to start at (default is 1)
+--playlist-end NUMBER   
+youtube-dl  --proxy socks5://127.0.0.1:9150  -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>
+
+https://www.youtube.com/playlist?list=PLgU2ab1sGM_LgqvudZxmMiTIBxCYCevHB
+
+youtube-dl  --proxy socks5://127.0.0.1:9150 --playlist-start 20  -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLgU2ab1sGM_LgqvudZxmMiTIBxCYCevHB
