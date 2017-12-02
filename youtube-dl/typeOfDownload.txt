@@ -9,3 +9,7 @@ youtube-dl  --proxy socks5://127.0.0.1:9150  -o "%(playlist_index)s-%(title)s.%(
 https://www.youtube.com/playlist?list=PLgU2ab1sGM_LgqvudZxmMiTIBxCYCevHB
 
 youtube-dl  --proxy socks5://127.0.0.1:9150 --playlist-start 20  -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLgU2ab1sGM_LgqvudZxmMiTIBxCYCevHB
+
+Downolad entire playlist
+youtube-dl --proxy socks5://127.0.0.1:9150  -o "%(playlist_index)s-%(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLzS3AYzXBoj8U0zgO7Kuu_2KtclkB1gSV
+
